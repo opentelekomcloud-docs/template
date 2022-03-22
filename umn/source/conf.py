@@ -17,7 +17,6 @@ extensions = [
     'otcdocstheme'
 ]
 
-
 html_theme = 'otcdocs'
 html_theme_options = {
 }
@@ -149,3 +148,10 @@ html_title = "Dummy UMN"  # FIXME
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'dummydoc'  # FIXME
+
+latex_documents = [
+    ('index',
+     'umn-dummy.tex',  # FIXME
+     u'%s User Manual Documentation' % project,
+     u'OpenTelekomCloud', 'manual'),
+]

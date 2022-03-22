@@ -14,7 +14,7 @@ import os
 import sys
 
 extensions = [
-    'os_api_ref',
+    'otc_api_ref',
     'otcdocstheme'
 ]
 
@@ -157,3 +157,10 @@ pygments_style = 'native'
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'dummydoc'  # FIXME
+
+latex_documents = [
+    ('index',
+     'api-ref-dummy.tex',  # FIXME
+     u'%s API Reference' % project,
+     u'OpenTelekomCloud', 'manual'),
+]
